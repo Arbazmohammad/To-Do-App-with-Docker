@@ -31,6 +31,9 @@ A simple To-Do list application containerized using Docker. This project demonst
 - **Backend**: *(e.g., Node.js + Express)*
 - **Containerization**: Docker
 
+## Application architecture
+
+![image](https://github.com/docker/getting-started-todo-app/assets/313480/c128b8e4-366f-4b6f-ad73-08e6652b7c4d)
 ---
 
 ## 🐳 Getting Started
