@@ -73,8 +73,8 @@ docker compose down
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/getting-started-todo-app](https://github.com/Arbazmohammad/To-Do-App-with-Docker.git
-cd getting-started-todo-app
+git clone https://github.com/Arbazmohammad/To-Do-App-with-Docker.git
+cd To-Do-App-with-Docker
 ```
 
 ### 2. Build the Docker Image
