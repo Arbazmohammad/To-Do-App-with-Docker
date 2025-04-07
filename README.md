@@ -8,14 +8,6 @@ A simple To-Do list application containerized using Docker. This project demonst
 
 ---
 
-## 📸 Screenshot
-
-> _Update this with a real screenshot if available_
-
-![App Screenshot](https://via.placeholder.com/800x400.png?text=To-Do+App+Screenshot)
-
----
-
 ## 🚀 Features
 
 - Create, update, and delete tasks  
@@ -27,8 +19,8 @@ A simple To-Do list application containerized using Docker. This project demonst
 
 ## 🧱 Tech Stack
 
-- **Frontend**: *(e.g., HTML/CSS/React)*
-- **Backend**: *(e.g., Node.js + Express)*
+- **Frontend**: *(React)*
+- **Backend**: *(Node.js)*
 - **Containerization**: Docker
 
 ---
@@ -83,49 +75,3 @@ docker pull arbazmd939/getting-started-todo-app:latest
 ```
 
 ---
-
-## ⚙️ GitHub Actions (Optional CI/CD)
-
-> _You can set up CI/CD using GitHub Actions to build and push your Docker image automatically._
-
-Example:  
-`.github/workflows/docker-publish.yml`
-
-```yaml
-name: Docker Publish
-
-on:
-  push:
-    branches: [main]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v3
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v2
-      - name: Login to Docker Hub
-        uses: docker/login-action@v2
-        with:
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
-      - name: Build and Push
-        uses: docker/build-push-action@v4
-        with:
-          push: true
-          tags: arbazmd939/getting-started-todo-app:latest
-```
-
----
-
-## 🤝 Contributing
-
-Pull requests are welcome! For major changes, please open an issue first.
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
